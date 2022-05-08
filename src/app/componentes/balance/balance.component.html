@@ -1,0 +1,9 @@
+<div #chart style="width: 100%; height: 500px"></div>
+
+<mat-expansion-panel class="panel-datos">
+    <mat-expansion-panel-header>
+        <mat-panel-title>Historial de balance</mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <app-tabla [columnas]="columnas" [datos]="balances"></app-tabla>
+</mat-expansion-panel>
